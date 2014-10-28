@@ -8,3 +8,8 @@ A microframework for BIG Gulp projects that could benefit from some abstraction 
 Usage
 ========
 More coming soon...
+
+License
+========
+The MIT License (MIT)
+Copyright (c) 2014 RentPost, Inc.
