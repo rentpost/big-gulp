@@ -1,0 +1,14 @@
+#mark this .editorconfig as the top most editor config
+root = true
+
+
+#for all files
+[*]
+end_of_lines = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+indent_size = 4
+#tab_width is supposed to default to the same size as `indent_size`, but not
+#all editors support .editorconfigs, so this is being added anyway.
+tab_width = 4

@@ -1,0 +1,35 @@
+{
+	"name": "big-gulp",
+	"version": "0.0.1",
+	"description": "A micro-framework for BIG Gulp projects.",
+	"author": {
+		"name": "RentPost"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/rentpost/big-gulp/blob/master/LICENSE"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rentpost/big-gulp.git"
+	},
+	"main": "lib",
+	"homepage": "http://github.com/rentpost/big-gulp",
+	"engines": {
+		"node": ">=0.10.30"
+	},
+	"dependencies": {
+		"auto-loader": "~0.2.0",
+		"lodash": "~2.4.1"
+	},
+	"devDependencies": {
+	},
+	"scripts": {
+	},
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/rentpost/big-gulp/issues"
+	}
+}
