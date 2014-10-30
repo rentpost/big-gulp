@@ -18,11 +18,13 @@
 	"main": "lib",
 	"homepage": "http://github.com/rentpost/big-gulp",
 	"engines": {
-		"node": ">=0.10.30"
+		"node": ">=0.10.30",
+		"npm": ">=2.1.5"
 	},
 	"dependencies": {
 		"auto-loader": "~0.2.0",
-		"lodash": "~2.4.1"
+		"lodash": "~2.4.1",
+		"winston": "~0.8.1"
 	},
 	"devDependencies": {
 	},
