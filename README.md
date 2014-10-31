@@ -1,7 +1,7 @@
 BIG Gulp (beta)
 ========
 
-A micro-framework for BIG Gulp projects that could benefit from some abstraction and organization.
+A micro-framework for BIG [Gulp](http://gulpjs.com) projects that could benefit from some abstraction and organization.
 
 [![Big gulps, huh?](http://www.dumbcountdown.com/uploads/3/2/0/5/32055191/7859786_orig.jpg)](https://youtu.be/N_j5tDuakKU)
 
