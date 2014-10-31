@@ -26,7 +26,6 @@
     "lodash": "~2.4.1",
     "pkginfo": "^0.3.0",
     "to-camel-case": "git://github.com/ianstormtaylor/to-camel-case",
-    "winston": "~0.8.1"
   },
   "devDependencies": {},
   "scripts": {},

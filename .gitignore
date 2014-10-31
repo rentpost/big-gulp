@@ -8,7 +8,7 @@
 #Random Hidden Files
 .DS_Store
 
-#PHPStorm Config Files
+#Editor Config Files
 .idea
 !.idea/codeStyleSettings.xml
 atlassian-ide-plugin.xml
