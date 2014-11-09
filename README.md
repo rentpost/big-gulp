@@ -9,10 +9,11 @@ A micro-framework for BIG [Gulp](http://gulpjs.com) projects that could benefit 
 Getting Started
 ========
 
-Getting going with BIG Gulp is really simple.  Start off by installing the `rentpost/big-gulp` npm module.
+Getting going with BIG Gulp is really simple.  Start off by installing the `gulp` and `rentpost/big-gulp` npm modules.
 
 ```sh
 cd /path/to/your/gulp/app
+npm install gulp
 npm install rentpost/big-gulp
 ```
 
@@ -24,7 +25,9 @@ Next, be sure to add something similar to the following to your `package.json` f
 {
     "_BigGulp": {
 		"config": {
-			"absolutePath": "/path/to/your/gulp/app/"
+			"absolutePath": "/path/to/your/gulp/app",
+			"logPath": "/path/to/your/gulp/app/logs",
+			"minLogLevel": "debug"
 		},
 		"autoload": {
 			"tasks": true,
