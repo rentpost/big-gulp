@@ -82,6 +82,7 @@ Dependencies & Credits
  * [lodash](http://lodash.com) becasue it's awesome!
  * [indexzero](https://github.com/indexzero/node-pkginfo) for a nice tool for locating, reading and parsing package.json.
  * [ianstormtaylor](https://github.com/ianstormtaylor/to-camel-case) for making it easy to camelCase random strings.
+ * [flatiron](https://github.com/flatiron/winston) for their fantastic work on Winston a kick-ass logging lib.
  
 
 License
