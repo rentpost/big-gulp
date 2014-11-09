@@ -37,7 +37,10 @@ Next, be sure to add something similar to the following to your `package.json` f
 				"gulp-sass": true,
 				"gulp-uglify": true,
 			}
-		}
+		},
+		"watch": {
+		  "/path/to/your/gulp/app/src/js": [ "lint", "test", "js" ],
+		  "/path/to/your/gulp/app/src/scss": [ "sass" ]
 	}
 }
 ```
@@ -53,7 +56,7 @@ Once you've done this, you can now start playing.  If you autoloaded a "tasks" n
 
 Below is an example of a task.
 
-*Note the use of the `app.config`. Additional config properties can be added to the config in your `package.json`. If you choose to do so, please use underscored property keys to avoid any future conflicts.*
+*Note the use of the `app.config`. Additional config properties can be added to the config in your `package.json`. If you choose to do so, please use _underscored property keys to avoid any future conflicts.*
 
 ```javascript
 /**
