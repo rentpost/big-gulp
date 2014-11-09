@@ -50,6 +50,8 @@ After setting up your config, add the following to your `gulpfile.js` to initial
 ```javascript
 var BigGulp = require("big-gulp")(module),
 	app = BigGulp.load();
+	
+app.watch();
 ```
 
 Once you've done this, you can now start playing.  If you autoloaded a "tasks" namespace, the tasks within this directory get overloaded and pass the `app` for accessing your various modules.
