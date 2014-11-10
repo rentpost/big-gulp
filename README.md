@@ -51,7 +51,7 @@ After setting up your config, add the following to your `gulpfile.js` to initial
 var BigGulp = require("big-gulp")(module),
 	app = BigGulp.load();
 	
-app.watch();
+app.watch(); //optionally start watching
 ```
 
 Once you've done this, you can now start playing.  If you autoloaded a "tasks" namespace, the tasks within this directory get overloaded and pass the `app` for accessing your various modules.
@@ -88,6 +88,8 @@ Dependencies & Credits
  * [indexzero](https://github.com/indexzero/node-pkginfo) for a nice tool for locating, reading and parsing package.json.
  * [ianstormtaylor](https://github.com/ianstormtaylor/to-camel-case) for making it easy to camelCase random strings.
  * [flatiron](https://github.com/flatiron/winston) for their fantastic work on Winston, a kick-ass logging lib.
+ * [momentjs](http://momentjs.com/) because it's amazing.
+ * [sindresorhus](https://github.com/sindresorhus/chalk) for helping make the CLI purdy.
  
 
 License

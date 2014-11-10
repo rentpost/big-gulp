@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "auto-loader": "^0.2.0",
+    "chalk": "^0.5.1",
     "lodash": "~2.4.1",
+    "moment": "^2.8.3",
     "pkginfo": "^0.3.0",
     "to-camel-case": "git://github.com/ianstormtaylor/to-camel-case",
     "winston": "^0.8.3"
