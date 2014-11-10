@@ -27,6 +27,7 @@
     "lodash": "~2.4.1",
     "moment": "^2.8.3",
     "pkginfo": "^0.3.0",
+    "run-sequence": "oojacoboo/run-sequence",
     "to-camel-case": "git://github.com/ianstormtaylor/to-camel-case",
     "winston": "^0.8.3"
   },
