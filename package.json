@@ -19,7 +19,8 @@
   "homepage": "http://github.com/rentpost/big-gulp",
   "engines": {
     "node": ">=0.10.30",
-    "npm": ">=2.1.5"
+    "npm": ">=2.1.5",
+    "gulp": ">=4.0.0"
   },
   "dependencies": {
     "auto-loader": "^0.2.0",
@@ -27,7 +28,6 @@
     "lodash": "~2.4.1",
     "moment": "^2.8.3",
     "pkginfo": "^0.3.0",
-    "run-sequence": "oojacoboo/run-sequence",
     "to-camel-case": "git://github.com/ianstormtaylor/to-camel-case",
     "winston": "^0.8.3"
   },
