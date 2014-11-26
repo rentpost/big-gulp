@@ -90,8 +90,6 @@ Dependencies & Credits
  * [flatiron](https://github.com/flatiron/winston) for their fantastic work on Winston, a kick-ass logging lib.
  * [momentjs](http://momentjs.com/) because it's amazing.
  * [sindresorhus](https://github.com/sindresorhus/chalk) for helping make the CLI purdy.
- * [floatdrop](https://github.com/floatdrop/gulp-watch) because gulp's default watcher isn't nearly sufficient.
- * [OverZealous](https://github.com/OverZealous/run-sequence) for a nice module to run gulp tasks in sequence with deps in tact.
  
 
 License
